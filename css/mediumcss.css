@@ -1,0 +1,125 @@
+/* 
+    Document   : mediumcss
+    Created on : Aug 14, 2013, 10:04:37 PM
+    Author     : yuwen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+root { 
+    display: block;
+}
+
+
+#searchWrapper{
+    width: 766px;
+    margin:auto;
+    clear: both;
+
+}
+
+#wrapper{
+    margin: auto;
+    width: 766px;
+    clear: both;
+}
+
+#input{
+    font-family:'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 260px;
+}
+#googleMap{    
+    width:383px;
+    height:383px;
+    float: left;
+}
+
+#description{
+    font-family:'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 766px;
+    margin:auto;
+    clear: both;
+    font-size: 12px;
+}
+
+#bigPicHolder{
+    width:383px;
+    height:383px;
+    background-color: black;
+    float:right;
+}
+
+#bigPicHolder img{
+    max-width: 100%;
+}
+
+#pictureInfo{
+    height:24px;
+    width: 766px;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    text-align: right;
+    padding-top: 6px;
+}
+
+
+#instagramDisp{
+    font-family: Courier, serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    border: 8px black solid;
+}
+
+#search{
+    float:left;
+    
+}
+#button{
+    position: relative;
+    float:left;
+}
+
+#searchButton{
+    height: 22px;
+    margin-top: 3px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#error{
+    font-family: Courier, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.picture{
+    width: 155px;
+    height: 155px;
+    display: inline;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.label{
+    font-family:'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.variable{
+   font-family:'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: bold;  
+   color: #0099ff;
+}

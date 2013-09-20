@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+    
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+<script type="text/javascript" src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/libs/jqueryui-1.10.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+
+
+<link type="text/css" rel="stylesheet" media="screen and (min-width: 1240px)" href="css/maincss.css"/>
+<link type="text/css" rel="stylesheet" media="screen and (min-width: 1080px) and (max-width: 1240px)" href="css/largecss.css"/>
+<link type="text/css" rel="stylesheet" media="screen and (min-width: 924px) and (max-width: 1080px)" href="css/lesslargecss.css"/>
+<link type="text/css" rel="stylesheet" media="screen and (max-width: 924px)" href="css/mediumcss.css"/>
+<!--<link type="text/css" rel="stylesheet" media="screen and (max-width: 780px)" href="css/smallcss.css"/>-->
+
+</head>
+
+<body>
+    
+    <div id="description"><p>Click "Search Area" to look at the recent 
+        photos taken in the focused area!
+        <br/>Enter a new location search to clear your data, otherwise, keep loading pics on your plate!</p></div>
+    <div id="searchWrapper">
+        <div id="search">
+            <input id="input">
+        </div>
+        <div id="button">
+            <button type="button" id="searchButton">Search Area</button>
+        </div>
+    </div>
+    
+    <div id="wrapper">    
+        <div id="googleMap"></div>
+        <div id="bigPicHolder"></div>
+    </div>
+
+    <div id="pictureInfo"></div>
+
+    <div id="instagramDisp"></div>
+
+</body>
+</html>
