@@ -94,6 +94,14 @@ root {
     font-weight: bold;
 }
 
+#resetButton{
+    height: 22px;
+    margin-top: 3px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
 #error{
     font-family: Courier, serif;
     font-size: 24px;

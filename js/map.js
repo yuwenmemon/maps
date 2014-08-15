@@ -21,7 +21,9 @@ $(document).ready(function(){
     $('#searchButton').mousedown(function() {
         performSearch();
      });
-
+    $('#resetButton').mousedown(function() {
+       reset();
+    });
 });
 
 function initialize(){
@@ -75,6 +77,18 @@ function initialize(){
         }
     });
 
+}
+
+
+function reset(){
+    $('#instagramDisp').empty();
+    for (var i in markers){
+        markers[i].setMap(null);
+    }
+    $('#instagramDisp').hide();
+    $('#bigPicHolder').empty();
+    $('#pictureInfo').empty();
+    photoData = {};
 }
 
 
